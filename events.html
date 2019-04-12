@@ -24,11 +24,12 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <style>
-    BODY{
-      cursor:url("mousecursor.ico"), default;
+    BODY {
+      cursor: url("mousecursor.ico"), default;
     }
-    A{
-      cursor:url("link.ico"), default;
+
+    A {
+      cursor: url("link.ico"), default;
     }
   </style>
 </head>
@@ -67,10 +68,9 @@
     <div id="page-content-wrapper">
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <button class="btn btn-primary" id="menu-toggle"><</button>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="btn btn-primary" id="menu-toggle">
+          <</button> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -85,22 +85,25 @@
           </ul>
         </div>
       </nav>
-    <!-- /#page-content-wrapper -->
+      <iframe
+        src="https://calendar.google.com/calendar/b/1/embed?title=%23FOREVER2021&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ru30a30ivpdv0qpd59nv2d83j8%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=harkerstuco2021%40gmail.com&amp;color=%23AB8B00&amp;ctz=America%2FLos_Angeles"
+        style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      <!-- /#page-content-wrapper -->
 
-  </div>
-  <!-- /#wrapper -->
+    </div>
+    <!-- /#wrapper -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Menu Toggle Script -->
-  <script>
-    $("#menu-toggle").click(function(e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
-  </script>
+    <!-- Menu Toggle Script -->
+    <script>
+      $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+      });
+    </script>
 
 </body>
 
