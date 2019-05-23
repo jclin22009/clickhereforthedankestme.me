@@ -27,6 +27,8 @@ body {
 
 #page-content-wrapper {
   min-width: 100vw;
+  position: relative;
+  overflow: hidden;
 }
 
 #wrapper.toggled #sidebar-wrapper {
