@@ -47,18 +47,6 @@
                     <a href="studyresources.html" class="list-group-item list-group-item-action bg-light">Resources</a>
                     <a href="events.html" class="list-group-item list-group-item-action bg-light">Events</a>
                     <a href="logs.html" class="list-group-item list-group-item-action bg-light">Logs</a>
-
-                    <!--
-<a class="nav-link dropright" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-Suggestions
-</a>
-<div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-<a class="dropdown-item" href="#">Action</a>
-<a class="dropdown-item" href="#">Another action</a>
-<div class="dropdown-divider"></div>
-<a class="dropdown-item" href="#">Something else here</a>
-</div>
-!-->
                 </div>
             </div>
             <!-- /#sidebar-wrapper -->
@@ -69,13 +57,13 @@ Suggestions
                 <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                     <button class="btn btn-primary" id="menu-toggle"><</button>
 
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
-                        </button>
+                    </button>
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                                <li class="nav-item active">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
                                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
@@ -84,14 +72,18 @@ Suggestions
 
                             </ul>
                         </div>
-                        </nav>
+                  </nav>
+
                     <!-- /#page-content-wrapper -->
                     <div class="container-fluid">
                         <h1 class="mt-4">Home</h1>
                         <p>This website will host resources, events, and websites that will hopefully be useful to the class of 2021. This website is far from finished, so please don't roast my code :)</p>
                         <p><i>Please send emails to 21jasonl for any questions/concerns.</i></p>
+                        <div class="bg.primary">
+                          <div id="particles-js"></div>
+                        </div>
                     </div>
-                    </div>
+                </div>
                 <!-- /#wrapper -->
 
                 <!-- Firebase -->
@@ -121,7 +113,7 @@ Suggestions
                         $("#wrapper").toggleClass("toggled");
                     });
                 </script>
-
-                </body>
-
-            </html>
+                <script src="js/particles.js"></script>
+                <script src="js/app.js"></script>
+    </body>
+</html>
