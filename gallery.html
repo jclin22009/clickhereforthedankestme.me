@@ -1,127 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <link rel="stylesheet" href="css/icannotusecss.css">
+  </head>
+  <script src="js/backgroundvideo.js"></script>
+  <body>
+    <!--
+    <div class="videocontainer">
+      <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+        <iframe frameborder="0" height="100%" width="100%"
+        src="https://youtube.com/embed/FY1eA8HJ_fc?autoplay=0&controls=0&showinfo=0&autohide=1">
+        </iframe>
+      </div>
+    </div>
+    -->
+    <div class="video-background">
+    <div class="video-foreground">
+      <iframe src="https://www.youtube.com/embed?listType=playlist&list=PL_micZEaS0pA2x49EzoTcYT5mJ4tnToTR&autoplay=1&controls=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <!--https://www.youtube.com/embed/9ZaEevdzrxg?controls=1&showinfo=1&rel=0&autoplay=1&loop=1&playlist=PL_micZEaS0pA2x49EzoTcYT5mJ4tnToTR-->
+  </div>
 
-    <head>
-
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-
-        <title>2021Hub ‒ Home</title>
-
-        <!-- Bootstrap core CSS -->
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Custom styles for this template -->
-        <link href="css/simple-sidebar.css" rel="stylesheet">
-
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff">
-        <style>
-            BODY{
-                cursor:url("mousecursor.ico"), default;
-            }
-            A{
-                cursor:url("link.ico"), default;
-            }
-        </style>
-    </head>
-
-    <body>
-
-        <div class="d-flex" id="wrapper">
-
-            <!-- Sidebar -->
-            <div class="bg-light border-right" id="sidebar-wrapper">
-                <div class="sidebar-heading"><b>🦅2021Hub</b></div>
-                <div class="list-group list-group-flush">
-                    <a href="index.html" class="list-group-item list-group-item-action bg-light"><b>Dashboard</b></a>
-                    <a href="suggest.html" class="list-group-item list-group-item-action bg-light">Suggestions</a>
-                    <a href="apps.html" class="list-group-item list-group-item-action bg-light">Apps</a>
-                    <a href="studyresources.html" class="list-group-item list-group-item-action bg-light">Resources</a>
-                    <a href="events.html" class="list-group-item list-group-item-action bg-light">Events</a>
-                    <a href="logs.html" class="list-group-item list-group-item-action bg-light">Logs</a>
-
-                    <!--
-<a class="nav-link dropright" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-Suggestions
-</a>
-<div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-<a class="dropdown-item" href="#">Action</a>
-<a class="dropdown-item" href="#">Another action</a>
-<div class="dropdown-divider"></div>
-<a class="dropdown-item" href="#">Something else here</a>
+<div id="vidtop-content">
+<div class="vid-info">
+	  <h1>YouTube Fullscreen Background Demo</h1>
+	  <p>The International Space Station orbits the Earth every 92 minutes, with its crew seeing a sunrise 15 times a day. It exists as a scientific, educational, and engineering platform in low orbit, 330 to 435 kilometres above the Earth.
+     <p>Original timelapse by Riccardo Rossi (ISAA), used under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Raw photos courtesy of http://eol.jsc.nasa.gov/
+	 <a href="/500/Use-YouTube-Videos-as-Fullscreen-Web-Page-Backgrounds">Full article</a>
+  </div>
 </div>
-!-->
-                </div>
-            </div>
-            <!-- /#sidebar-wrapper -->
-
-            <!-- Page Content -->
-            <div id="page-content-wrapper">
-
-                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-                    <button class="btn btn-primary" id="menu-toggle"><</button>
-
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="http://jasonchenl.in">About</a>
-                                </li>
-
-                            </ul>
-                        </div>
-                        </nav>
-                    <!-- /#page-content-wrapper -->
-                        <script src="https://yvoschaap.com/ytpage/ytembed.js"></script>
-                        <div id="ytThumbs"><ins>Made with the <a href="https://yvoschaap.com/youtube.html?utm_source=generator">Youtube Embed Generator</a>.</ins></div>
-                        <script>
-                            ytEmbed.init({'block':'ytThumbs','key':'your-youtube-developer-key','q':'PL_micZEaS0pA2x49EzoTcYT5mJ4tnToTR','type':'playlist','results':50,'meta':true,'player':'embed','layout':'full'});
-                        </script>
-                    </div>
-                <!-- /#wrapper -->
-
-                <!-- Firebase -->
-
-                <script src="https://www.gstatic.com/firebasejs/5.11.0/firebase.js"></script>
-                <script>
-                    // Initialize Firebase
-                    var config = {
-                        apiKey: "AIzaSyBQ2PWDs92V9lI3klEOec03AWRDf14mxNI",
-                        authDomain: "testing-78874.firebaseapp.com",
-                        databaseURL: "https://testing-78874.firebaseio.com",
-                        projectId: "testing-78874",
-                        storageBucket: "testing-78874.appspot.com",
-                        messagingSenderId: "929494135674"
-                    };
-                    firebase.initializeApp(config);
-                </script>
-
-                <!-- Bootstrap core JavaScript -->
-                <script src="vendor/jquery/jquery.min.js"></script>
-                <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-                <!-- Menu Toggle Script -->
-                <script>
-                    $("#menu-toggle").click(function(e) {
-                        e.preventDefault();
-                        $("#wrapper").toggleClass("toggled");
-                    });
-                </script>
-
-                </body>
-
-            </html>
+  </body>
+</html>
